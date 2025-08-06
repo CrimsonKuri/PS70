@@ -27,6 +27,45 @@
 
 <h4>Assignment: Build a Drawing Robot</h4>
 
+<p class = "margin"></p>
+
+During our initial builds of the machine, one of the first issues took form in the selection of "gears" for the belt that would fit into the plastic frame. These were most relevant to one of axis, but were important to resolve early as they were too be encased early on in the process. However, after asking around and a bit of assurance with TA's that the plastic alternatives we'd been given were too large to fit in the frame, we were able to receive the appropriate metal pieces and move onto other parts of the machine.
+
+<p class="margin">   </p>
+
+My part in the Machine Building Project took form in the initial modifications made to the microcontroller code that we would use for the machine. However, most of the credit for the code we would use came from the initial code on the PHYS S-12 website under "Building a Drawing Machine." During our group's initial conversations, we most related our drawing machine to Cindy's Pen Plotter. This would then redirect us to the website's suggestion to use the course's websockets code, which can be downloaded here:
+
+<p class="margin">   </p>
+
+<div class="flexrow">
+  <a id="btn" href="./sidewalk.zip" download>Original Sidewalk Code
+  </a>
+</div>
+
+<p class="margin">   </p>
+
+Modifications for this program mostly came in the form of adapting it after recognizing that the original program made use of a set of two x axis steppers, and one y axis stepper. The code for the modifications as sent to one of my teammates for initial testing takes form in the following:
+
+<p class="margin">   </p>
+
+<div class="flexrow">
+  <a id="btn" href="./drawing_machine.zip" download>Modified Sidewalk Code
+  </a>
+</div>
+
+<p class="margin">   </p>
+
+One thing to note was that the drawing machine did not immediately take to the arduino workspace as I originally had it, which I communicated to some team members. Instead I had to roll back the version of esp32 to 2.0.14 in order for certain inclusions like Async to function properly.
+
+<p class="margin">   </p>
+
+A teammate, Zachary, would then implement a function to draw a circle in his own build before our testing as a display of the drawing machine's ability to handle complex shapes involving intervals of different movements on the x and y axis.
+
+<p class="margin">   </p>
+
+During our final adjustments and fine tuning, the drawing machine initially made use of a highlighter but the shape of the highlighter and the flatness of the surface proved to be too inconsistent, raising the drawing implement above the paper and into the paper at different points in the draw. I suggested using one of my sharpie pens and as a group we identified a flat portion of the table where the machine worked and provided solid (although shaky) attempts at drawing circles.
+
+<p class="margin">   </p>
 
 </div>
 </xmp>
